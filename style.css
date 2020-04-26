@@ -1,0 +1,209 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 0 0 20px;
+}
+.main{
+    width: 100%;
+    min-height: 545px;
+    background: url(./images/background/back.png) no-repeat center;
+    background-size: 100%;
+    background-position: top;
+}
+/* Header */
+.header{
+     display: flex;
+     justify-content: space-between;
+     margin: 0 auto;
+     text-align: center;
+     padding: 28px 0 0 0;
+     
+}
+.logo{
+    display: flex;
+     align-items: center;
+     
+    
+}
+.logo__img{
+    width: 79px;
+    height: 79px;
+}
+.logo__name{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 41px;;
+    letter-spacing: 0.41px;
+    font-style: italic;
+    
+    /* padding: 0 612px 0 0; */
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 41px;
+    margin-top: 19px;
+    background-color:#f5c506;
+    padding: 0 19px;
+    box-shadow: -5px -5px #7a6f1d;
+    
+
+}
+.nav__link{
+    width: 120px;
+    color: #b28f07;
+    text-transform: uppercase;
+    padding: 0 37px 0 10px ;
+
+}
+.nav__link:hover{
+    color: #ffffff;
+}
+/* Main content */
+.main__content{
+    display: flex;
+    align-items: center;
+}
+.main__video{
+    padding: 57px 0 0 0;
+}
+.video__title{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: Asap;
+    font-size: 63px;
+    color: #ffffff;
+    max-width: 392px;
+    margin: 0 0 0 150px;
+    text-align: center;
+}
+.video__title span{
+    color:#f5c506;
+}
+/* Cards */
+.cards{
+    height: 212px;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0 0 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.cards__item{
+    
+}
+.cards__subtitle{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 27px;
+    color: #000000;
+    margin: 16px 0 0 0;
+}
+/* Section 2 */
+.section{
+    min-height: 509px;
+    
+    background: url(./images/background/back__sec.png);
+    background-size: 100%;
+}
+.section__cards{
+    display: flex;
+    
+}
+.section__title{
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 37px;
+    padding: 42px 0 40px 0 ;
+}
+.section__description{
+    width: 272px;
+    flex-basis: 33%;
+    color: #ffffff;
+    font-size: 29px;
+    font-weight: 300;
+    line-height: 38px;
+    padding: 25px 38px 34px 31px ;
+    background-color: #ec9e03;
+}
+.section__video{
+    flex-basis: 33%;
+}
+.section__img{
+    background-color: #ec9e03;
+    padding: 83px 50px;
+    margin-left: 33px;
+}
+.date{
+    width: 113px;
+    height: 86px;
+    background-color: #ddb101;
+    text-align: center;
+}
+.date__span{
+    color: #ffffff;
+    font-size: 51px;
+    line-height: 38px;
+    font-weight: 700;
+}
+.date__post{
+    padding: 15px 0 0 0;
+    font-size: 21px;
+    color: #b26529;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.slider__img{
+    margin: 43px 0 0 60px;
+    padding-bottom: 43px;
+    
+}
+/* last section */
+.last{
+    min-height: 500px;
+    background: url(./images/background/back_last.png);
+}
+.last__content{
+    display: flex;
+}
+.last__title{
+    color: #f5c506;
+    font-size: 43px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 48px 0 14px 0;
+    
+}
+.device{
+    display: inline-block;
+}
+.device__img2{
+    margin: 90px 0 0 0;
+}
+.device__img3{
+    margin: 200px 0 0 20px ;
+}
